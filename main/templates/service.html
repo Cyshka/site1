@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <h1>Услуги</h1>
+</head>
+<body>
+{% for i in service_po_category %}
+<div style = "border: 1px solid black; width: 200px">
+    {{i.title}}
+    {{i.price}}
+
+</div>
+{% endfor %}
+</body>
+</html>
